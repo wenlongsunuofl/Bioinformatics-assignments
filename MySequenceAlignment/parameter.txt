@@ -1,0 +1,16 @@
+input-file						        :sequences1.txt
+use-substitution-matrix(yes/no)			:yes
+substitution-matrix						:PAM250
+match									:5
+mismatch								:-3
+gap										:-4
+use-affine-gap-penalty(yes/no)			:yes
+open									:-12
+extend									:-4
+
+#Comments
+Available substitution matrices: 
+BLOSUM45,BLOSUM60,BLOSUM80,
+PAM120,PAM250,PAM260,PAM60
+
+# User can not remove configuration lines, before the comment section, because they are strict when running.
